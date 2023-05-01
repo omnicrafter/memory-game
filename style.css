@@ -1,0 +1,45 @@
+style.css
+.currentScore {
+  width: max-content;
+  margin: 20px auto;
+  color: rgb(16, 221, 27);
+  font-size: 2em;
+}
+
+.highScore {
+  width: max-content;
+  margin: 10px auto;
+  color: rgb(251, 255, 3);
+  font-size: 1.5em;
+}
+
+.buttonContainer {
+  width: max-content;
+  margin: 10px auto;
+}
+
+#resetButton {
+  color: white;
+  background-color: cyan;
+  font-size: 3em;
+}
+
+body {
+  background: #333333;
+  margin: 0;
+}
+
+.tiles {
+  margin: 48px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 16px;
+}
+
+.tile {
+  height: 100px;
+  background: #111111;
+  border: 5px solid #444444;
+  cursor: pointer;
+}
