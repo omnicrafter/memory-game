@@ -1,4 +1,3 @@
-app.js
 const currentScoreDiv = document.querySelector(".currentScore");
 const highScoreDiv = document.querySelector(".highScore");
 const resetButton = document.querySelector("#resetButton");
